@@ -1,0 +1,15 @@
+
+PHP CODE SNIFFER REPORT SUMMARY
+----------------------------------------------------------------------
+FILE                                                  ERRORS  WARNINGS
+----------------------------------------------------------------------
+tests/input/ClassSyntax.php                           1       0
+tests/input/ControlStructures.php                     5       1
+tests/input/First.php                                 2       0
+----------------------------------------------------------------------
+A TOTAL OF 8 ERRORS AND 1 WARNING WERE FOUND IN 3 FILES
+----------------------------------------------------------------------
+PHPCBF CAN FIX 8 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+

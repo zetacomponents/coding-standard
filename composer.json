@@ -1,0 +1,33 @@
+{
+    "name": "zetacomponents/coding-standard",
+    "type": "phpcodesniffer-standard",
+    "description": "The Zeta Components Coding Standard is a set of PHPCS rules applied to all Zeta Components projects.",
+    "keywords": [
+        "doctrine",
+        "coding",
+        "standard",
+        "cs",
+        "code",
+        "style",
+        "sniffer",
+        "rules",
+        "sniffs",
+        "checks"
+    ],
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-0": {"ZetaComponents\\": "src/"}
+    },
+    "require": {
+        "php": "^7.1 || ^8.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2 || ^0.7",
+        "slevomat/coding-standard": "^7.0.0",
+        "squizlabs/php_codesniffer": "^3.6.0"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<ruleset
+    name="ZetaComponents"
+    namespace="ZetaComponents"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../vendor/squizlabs/php_codesniffer/phpcs.xsd"
+>
+    <description>The ZetaComponents coding standard.</description>
+
+    <!-- Functions/Methods -->
+    <rule ref="Generic.Functions.OpeningFunctionBraceBsdAllman" />
+    <rule ref="Squiz.Functions.FunctionDeclarationArgumentSpacing">
+        <properties>
+            <property name="equalsSpacing" value="1"/>
+            <property name="requiredSpacesAfterOpen" value="1" />
+            <property name="requiredSpacesBeforeClose" value="1" />
+        </properties>
+    </rule>
+
+    <rule ref="PEAR.Functions.FunctionCallSignature">
+        <properties>
+            <property name="requiredSpacesAfterOpen" value="1" />
+            <property name="requiredSpacesBeforeClose" value="1" />
+        </properties>
+    </rule>
+
+    <rule ref="Squiz.Functions.FunctionDeclaration"/>
+    <rule ref="Squiz.WhiteSpace.FunctionSpacing">
+        <properties>
+            <property name="spacing" value="1" />
+            <property name="spacingBeforeFirst" value="0"/>
+            <property name="spacingAfterLast" value="0"/>
+        </properties>
+    </rule>
+    <!--<rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>-->
+
+    <!--<rule ref="Generic.WhiteSpace.ArbitraryParenthesesSpacing">
+        <properties>
+            <property name="spacing" value="1" />
+        </properties>
+    </rule>-->
+    <rule ref="PSR2.Classes.ClassDeclaration"/>
+
+    <!-- Control Structures -->
+    <rule ref="ZetaComponents.ControlStructures.ControlStructures" />
+    <rule ref="Squiz.ControlStructures.ForEachLoopDeclaration">
+        <properties>
+            <property name="requiredSpacesAfterOpen" value="1" />
+            <property name="requiredSpacesBeforeClose" value="1" />
+        </properties>
+    </rule>
+    <rule ref="Squiz.ControlStructures.ForLoopDeclaration">
+    <properties>
+        <property name="requiredSpacesAfterOpen" value="1" />
+        <property name="requiredSpacesBeforeClose" value="1" />
+    </properties>
+</rule>
+</ruleset>
