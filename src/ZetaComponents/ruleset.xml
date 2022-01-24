@@ -7,6 +7,8 @@
 >
     <description>The ZetaComponents coding standard.</description>
 
+    <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace" />
+
     <!-- Functions/Methods -->
     <rule ref="Generic.Functions.OpeningFunctionBraceBsdAllman" />
     <rule ref="Squiz.Functions.FunctionDeclarationArgumentSpacing">
@@ -54,7 +56,5 @@
         <property name="requiredSpacesAfterOpen" value="1" />
         <property name="requiredSpacesBeforeClose" value="1" />
     </properties>
-
-    <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace" />
 </rule>
 </ruleset>
