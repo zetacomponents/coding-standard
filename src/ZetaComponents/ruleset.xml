@@ -54,5 +54,7 @@
         <property name="requiredSpacesAfterOpen" value="1" />
         <property name="requiredSpacesBeforeClose" value="1" />
     </properties>
+
+    <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace" />
 </rule>
 </ruleset>
